@@ -5,7 +5,7 @@
 .global p4Height
 p4Height: .word 200
 .global p4Width
-p4Width: .word244
+p4Width: .word 244
 .global p4
 
 p4:

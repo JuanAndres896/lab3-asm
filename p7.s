@@ -5,7 +5,7 @@
 .global p7Height
 p7Height: .word 200
 .global p7Width
-p7Width: .word144
+p7Width: .word 144
 .global p7
 
 p7:

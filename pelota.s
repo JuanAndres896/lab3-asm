@@ -5,7 +5,7 @@
 .global pelotaHeight
 pelotaHeight: .word 80
 .global pelotaWidth
-pelotaWidth: .word80
+pelotaWidth: .word 80
 .global pelota
 
 pelota:

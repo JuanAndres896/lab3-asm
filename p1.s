@@ -5,7 +5,7 @@
 .global p1Height
 p1Height: .word 200
 .global p1Width
-p1Width: .word200
+p1Width: .word 200
 .global p1
 
 p1:

@@ -5,7 +5,7 @@
 .global instruccionesHeight
 instruccionesHeight: .word 480
 .global instruccionesWidth
-instruccionesWidth: .word640
+instruccionesWidth: .word 640
 .global instrucciones
 
 instrucciones:

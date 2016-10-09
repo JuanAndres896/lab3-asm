@@ -5,7 +5,7 @@
 .global p3Height
 p3Height: .word 200
 .global p3Width
-p3Width: .word160
+p3Width: .word 160
 .global p3
 
 p3:

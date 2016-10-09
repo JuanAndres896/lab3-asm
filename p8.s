@@ -5,7 +5,7 @@
 .global p8Height
 p8Height: .word 200
 .global p8Width
-p8Width: .word224
+p8Width: .word 224
 .global p8
 
 p8:

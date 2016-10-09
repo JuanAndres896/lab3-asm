@@ -5,7 +5,7 @@
 .global p5Height
 p5Height: .word 200
 .global p5Width
-p5Width: .word139
+p5Width: .word 139
 .global p5
 
 p5:

@@ -5,7 +5,7 @@
 .global p6Height
 p6Height: .word 200
 .global p6Width
-p6Width: .word151
+p6Width: .word 151
 .global p6
 
 p6:
