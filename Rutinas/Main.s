@@ -18,7 +18,7 @@ main:
 	ldr r0,=instruccionesHeight
 	ldr r0,[r0]
 	ldr r1,=instruccionesWidth
-	ldr r1,=[r1]
+	ldr r1,[r1]
 	ldr r2,=instrucciones
 
 	bl pintar_imagen
