@@ -15,7 +15,7 @@
 @ R2: Direccion de la matriz de la imagen
 @ Devuelve en pantalla la imagen segun los parametros indicados
 
-pintar_imagen:
+.global pintar_imagen
 	push {lr}
 	psuh {r4-r9}
 
