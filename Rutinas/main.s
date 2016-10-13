@@ -60,9 +60,6 @@ loop1:
 	MOV R7,#0
 	SWI 0
 
-
-
-
 /* Area de datos */
 .data
 .balign 4
@@ -76,5 +73,5 @@ score2:	.word 0
 turnos: .word 0
 decision_j1: .word 0
 decision_j2: .word 0
-delay: .word 2516582
+numerote_2: .word 2516582
 .end

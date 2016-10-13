@@ -79,6 +79,19 @@ end:
 	pop {r4-r9}
 	pop {pc}
 
+.global delay
+delay:
+	
+    mov r7,#0
+
+    b compare
+loop:
+    add r7,#1     //r7++
+compare:
+    cmp r7,r0     //test r7 == r0
+    bne loop
+    mov pc,lr
+
 
 /* Area de datos */
 .data
@@ -86,5 +99,6 @@ end:
 pixelAddr: .word 0
 coord_x: .word 0
 coord_y: .word 0
+numerote_2: .word 2516582
 .global cota_x
 cota_x: .word 0
