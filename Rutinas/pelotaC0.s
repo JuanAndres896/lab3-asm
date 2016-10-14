@@ -6,11 +6,12 @@
 *******************************************************************************/
  .text
  .align 2
- .global main
-main:
+ .global pelotaC0
+pelotaC0:
 	#-------------------------
 	#get screen address
 	#-------------------------
+	push {lr}
 	bl getScreenAddr
 	ldr r1,=pixelAddr
 	str r0,[r1]
@@ -67,6 +68,7 @@ main:
 	.unreq	ancho	  
 	.unreq	alto	  
 	
+	pop {pc}
 	
 .data
 .global pixelAddr
